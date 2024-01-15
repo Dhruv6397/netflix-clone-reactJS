@@ -1,20 +1,19 @@
 import React from 'react'
 import NavLogo from './NavLogo.png'
+import './Nav.css';
 
 export default function Navbar() {
   return (
     <>
-    <header>
-        <img src={NavLogo} alt='NavLogo'/>
-    </header>
-      <nav>
-        <ul>
-            <li>Home</li>
-            <li>TV Shows</li>
-            <li>Movies</li>
-            <li>New & Popular</li>
-            <li>My List</li>
-            <li>Browse by Languages</li>
+    <nav> 
+        <header className='logo'><img className='imglogo' src={NavLogo} alt='NavLogo'/></header>
+        <ul className='list'>    
+            <li className='item'  >Home</li>
+            <li className='item'  >TV Shows</li>
+            <li className='item'  >Movies</li>
+            <li className='item'  >New & Popular</li>
+            <li className='item'  >My List</li>
+            <li className='item'  >Browse by Languages</li>
         </ul>
       </nav>
     </>

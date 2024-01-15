@@ -1,0 +1,28 @@
+nav{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: self-start;
+    background-color: rgb(28, 26, 26);  
+}
+.list{
+    padding: 0;
+    margin: 15px 0 0 70px;
+    display: inline-block;
+}
+.item{
+    display: flex;
+    display: inline-block;
+    justify-content: space-between;
+    margin: 8px;
+    font-size: 15px;
+    color: rgb(255, 255, 255);    
+}
+.logo{
+    width: fit-content;
+    cursor: pointer;
+    margin:10px 0 0px 50px;
+}
+.imglogo{
+    width: 100px;
+}
