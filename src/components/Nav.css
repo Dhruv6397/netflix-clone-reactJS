@@ -7,7 +7,7 @@ nav{
 }
 .list{
     padding: 0;
-    margin: 15px 0 0 70px;
+    margin: 15px 0 0 60px;
     display: inline-block;
 }
 .item{
@@ -16,13 +16,15 @@ nav{
     justify-content: space-between;
     margin: 8px;
     font-size: 15px;
+    font-weight: 300px;
     color: rgb(255, 255, 255);    
 }
 .logo{
     width: fit-content;
     cursor: pointer;
-    margin:10px 0 0px 50px;
+    margin:8px 0 0px 50px;
 }
 .imglogo{
     width: 100px;
 }
+
